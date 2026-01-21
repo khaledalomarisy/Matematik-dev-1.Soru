@@ -1,0 +1,19 @@
+AdSoyad:Khaled Alomari 
+ÖğrenciNO:2507020046
+Proje Açıklaması
+
+
+Bu proje,  ax^2 + bx + c = 0  genel formundaki ikinci dereceden denklemlerin köklerini hesaplamak amacıyla C++ programlama dili kullanılarak geliştirilmiştir.
+Program, kullanıcıdan a, b ve c katsayılarını cin komutuyla alır ve 
+\Delta = b^2 - 4ac  formülünü kullanarak diskriminantı hesaplar. 
+Hesaplanan delta değerine göre if-else kontrol yapıları kullanılarak denklemin gerçek kökünün olup olmadığı, tek kökü mü yoksa iki farklı kökü mü olduğu belirlenir.
+Sonuçlar ve hesaplanan kök değerleri, cmath kütüphanesindeki karekök fonksiyonu yardımıyla bulunarak ekrana yazdırılır.
+
+
+Kullanılan Teknolojiler
+
+· Dil: C++
+· Kütüphaneler:
+#include <iostream>
+#include <cmath>
+#include <iomanip>
